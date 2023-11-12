@@ -2,11 +2,10 @@
 #Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 
 
-nums = [1,2,2]
+nums = "aab"
 
 def subs(p,nums,ans):
     if len(nums)==0:
-        p.sort()
         if p not in ans:
             ans.append(p)
         return
