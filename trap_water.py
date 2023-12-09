@@ -22,3 +22,14 @@ def trap(height):
 #trap(height)
 
 print("hello",1)
+
+
+
+
+
+s = "1234"
+val = 0
+for i in s:
+    val = val*10+int(i)
+print(val)
+
