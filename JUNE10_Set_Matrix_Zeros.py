@@ -16,5 +16,6 @@ def find(a):
             print(i,j,a[i][j])
     print(a)
 
+    print(l)
 
 find(a)
